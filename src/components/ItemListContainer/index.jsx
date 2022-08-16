@@ -29,10 +29,6 @@ export const ItemListContainer = ({texto}) => {
         }
     }, [categoriaId]);
     
-    const onAdd = (quantity) => {
-        console.log(`Compraste ${quantity} unidades `);
-    }
-    
     return (
         <>
         <Title greeting = {texto} />
